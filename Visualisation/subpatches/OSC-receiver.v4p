@@ -51,6 +51,8 @@
    </PIN>
    <PIN pinname="Input String" slicecount="1" values="/fiducial/id">
    </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Address">
+   </PIN>
    </NODE>
    <LINK srcnodeid="3" srcpinname="Output String" dstnodeid="2" dstpinname="Address">
    </LINK>
