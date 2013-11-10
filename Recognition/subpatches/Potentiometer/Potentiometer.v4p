@@ -7,7 +7,7 @@
    </BOUNDS>
    <BOUNDS height="540" left="5385" top="5010" type="Box" width="525">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" values="1">
+   <PIN pinname="Y Input Value" slicecount="1" values="0">
    </PIN>
    <PIN encoded="0" pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -237,7 +237,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="4800" top="5085" width="540" height="525">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" values="0" visible="1">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
    </PIN>
    <PIN pinname="Units" slicecount="1" encoded="0" values="||">
    </PIN>
@@ -1197,43 +1197,5 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="126" srcpinname="Analog In" dstnodeid="93" dstpinname="Input">
-   </LINK>
-   <NODE systemname="FrameDelay (Animation)" nodename="FrameDelay (Animation)" componentmode="Hidden" id="100051">
-   <BOUNDS type="Node" left="6270" top="6480" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Input 1" visible="1">
-   </PIN>
-   <PIN pinname="Output 1" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="92" srcpinname="Y Output Value" dstnodeid="100051" dstpinname="Input 1">
-   </LINK>
-   <NODE systemname="FrameDelay (Animation)" nodename="FrameDelay (Animation)" componentmode="Hidden" id="100052">
-   <BOUNDS type="Node" left="6450" top="6855" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Input 1" visible="1" slicecount="1" values="0">
-   </PIN>
-   <PIN pinname="Output 1" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="100051" srcpinname="Output 1" dstnodeid="100052" dstpinname="Input 1">
-   </LINK>
-   <NODE systemname="TogEdge (Animation)" nodename="TogEdge (Animation)" componentmode="Hidden" id="100053">
-   <BOUNDS type="Node" left="6525" top="7200" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Input" visible="1">
-   </PIN>
-   <PIN pinname="Up Edge" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="100052" srcpinname="Output 1" dstnodeid="100053" dstpinname="Input">
-   </LINK>
-   <LINK srcnodeid="100053" srcpinname="Up Edge" dstnodeid="129" dstpinname="Y Input Value">
-   <LINKPOINT x="6945" y="7815">
-   </LINKPOINT>
-   <LINKPOINT x="5820" y="7545">
-   </LINKPOINT>
-   <LINKPOINT x="4290" y="4380">
-   </LINKPOINT>
    </LINK>
    </PATCH>
