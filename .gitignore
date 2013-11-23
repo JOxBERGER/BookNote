@@ -1,5 +1,6 @@
 # don't commit assets
 # assets/
+*.wmv
 
 ###################
 # VVVV            #
