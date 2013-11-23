@@ -1,0 +1,93 @@
+1. Generative Gestaltung (S. 22 / OnFormative)
+
+Das Material zu diesem Thema wurde dem folgenden Titel entnommen:
+
+Generative Gestaltung: Entwerfen, Programmieren, Visualisieren, Hartmut Bohnacker, Benedikt Groß, Julia Laub, Claudius Lazzeroni [Hrsg.], Verlag Hermann Schmidt Mainz, 472 Seiten, ISBN 978-3874397599, 75.- €
+
+Generative Gestaltung hat sich – nicht zuletzt dank dieses Buches – vom Geheimtipp zu einem breiten Trend entwickelt, der einen Paradigmenwechsel im Design mit sich bringt: Mit den Möglichkeiten von Programmiersprachen wie »Processing« erstreckt sich die Rolle des Gestalters zunehmend nicht mehr nur auf den eigentlichen formalen Gestaltungsprozess, er wird vielmehr auch zum Programmierer seiner dynamischen digitalen Werkzeuge. Die Programmiersprache wird zum Entwurfsmedium. Sie nutzt Abstraktionsmuster zum Generieren neuer visueller Welten. Dieses Buch vermittelt die Grundlagen zum Entwickeln komplexer Visualisierungsstrategien, zeigt, wie diese programmiertechnisch umsetzbar sind, und legt den Grundstein für ein neues, zeitgemäßes Entwerfen. Mit vielen Best-Practice-Beispielen macht es Lust auf gestalterische Entdeckungsreisen und vermittelt solide die Grundlagen für die eigene generative Gestaltungskarriere.
+
+(Quelle: Verlag Hermann Schmidt Mainz)
+
+Bild: http://www.typografie.de/image/product_images/info_images/982_0.jpg
+****************************************************************
+
+2. Sketching User Experiences (S. 32 / Camille Mousette)
+
+Das Material zu diesem Thema wurde dem folgenden Titel entnommen:
+
+Sketching User Experiences: Getting the Design Right and the Right Design, Bill Buxton, Elsevier Verlag, 448 Seiten, ISBN 978-0123740373, 40,92 €
+
+Sketching User Experiences approaches design and design thinking as something distinct that needs to be better understood—by both designers and the people with whom they need to work— in order to achieve success with new products and systems. So while the focus is on design, the approach is holistic. Hence, the book speaks to designers, usability specialists, the HCI community, product managers, and business executives. There is an emphasis on balancing the back-end concern with usability and engineering excellence (getting the design right) with an up-front investment in sketching and ideation (getting the right design). Overall, the objective is to build the notion of informed design: molding emerging technology into a form that serves our society and reflects its values. Grounded in both practice and scientific research, Bill Buxton’s engaging work aims to spark the imagination while encouraging the use of new techniques, breathing new life into user experience design.
+
+(Quelle: Elsevier Verlag)
+
+Bild: http://d202m5krfqbpi5.cloudfront.net/books/1347329018l/980280.jpg
+****************************************************************
+
+3. Getting Started with Arduino (S. 100 / Arduino)
+
+Das Material zu diesem Thema wurde dem folgenden Titel entnommen:
+
+Getting Started with Arduino, Massimo Banzi, O'Reilly Verlag, 130 Seiten, ISBN 978-1449309879, 12.- €
+
+Arduino is the open-source electronics prototyping platform that’s taken the design and hobbyist world by storm. This thorough introduction, updated for Arduino 1.0, gives you lots of ideas for projects and helps you work with them right away. From getting organized to putting the final touches on your prototype, all the information you need is here!
+
+(Quelle: O'Reilly Verlag)
+
+Bild: http://akamaicovers.oreilly.com/images/0636920021414/cat.gif
+****************************************************************
+
+4. Digital by Design (S. 134 / SoundAffects)
+
+Das Material zu diesem Thema wurde dem folgenden Titel entnommen:
+
+Digital by Design: Crafting Technology for Products and Environments, Conny Freyer, Sebastien Noel, Eva Rucki, Verlag Thames & Hudson, 304 Seiten, ISBN 978-0500514382, 49,00 €
+
+Digital by Design surveys the fusion of digital technology, art and design, presenting innovative objects and artworks that are playful, disruptive, functional, radical and responsive. It is a thought-provoking sourcebook of technological innovation and an inspirational survey of visionaries who will shape our products and environment in the years to come.
+Troika, a London-based, multi-disciplinary art and design practice has been critically acclaimed for, among other projects, their installations ‘Cloud’ and ‘All The Time In The World’ at Heathrow Airport Terminal 5. Troika’s work has been exhibited at the Victoria and Albert Museum and Tate Britain, London and is part of the permanent collections of The Museum of Modern Art, New York and the British Council and the Victoria and Albert Museum, London.
+
+(Quelle: Thames and Hudson)
+
+Bild: http://www.thamesandhudson.com/media/images/9780500289013_22799.jpg
+****************************************************************
+
+5. Designing Interactions (S. 190 / Fiducials)
+
+Das Material zu diesem Thema wurde dem folgenden Titel entnommen:
+
+Designing Interactions, Bill Mogridge, Verlag MIT PRESS, 766 Seiten, ISBN 978-0262134743, 42,20 €
+
+In the Book Bill Moggridge introduces us to 40 influential designers who have shaped our interaction with technology. The introduction and final chapter combine to describe the approach to designing interactions that has evolved at IDEO. The 800 page book is illustrated with 700 color images. With the book is a DVD of 37 interviews, intercut with examples of interactions.
+
+(Quelle: Designing Interactions)
+
+Bild: http://mitpress.mit.edu/covers/9780262134743.jpg
+****************************************************************
+
+6. Envisioning Information (S. 276 / AntiVJ)
+
+Das Material zu diesem Thema wurde dem folgenden Titel entnommen:
+
+Envisioning Information, Edward Tufte, Verlag Graphics Press, 126 Seiten, ISBN 978-0961392116, 59,70 €
+
+This book celebrates escapes from the flatlands of both paper and computer screen, showing superb displays of high-dimensional complex data. The most design-oriented of Edward Tufte's books, Envisioning Information shows maps, charts, scientific presentations, diagrams, computer interfaces, statistical graphics and tables, stereo photographs, guidebooks, courtroom exhibits, timetables, use of color, a pop-up, and many other wonderful displays of information. The book provides practical advice about how to explain complex material by visual means, with extraordinary examples to illustrate the fundamental principles of information displays. Topics include escaping flatland, color and information, micro/macro designs, layering and separation, small multiples, and narratives. Winner of 17 awards for design and content. 400 illustrations with exquisite 6- to 12-color printing throughout. Highest quality design and production.
+
+(Quelle: Edward Tufte)
+
+Bild: http://www.edwardtufte.com/tufte/graphics/ei_bookcover.gif
+****************************************************************
+
+7. Branded Interactions (S. 310 / BMW Robot)
+
+Das Material zu diesem Thema wurde dem folgenden Titel entnommen:
+
+Branded Interactions: Digitale Markenerlebnisse planen & gestalten, Marco Spies, Verlag Hermann Schmidt Mainz, 362 Seiten, ISBN 978-3874398305, 68,- €
+
+Branded Interactions BIxD – die markengerechte Gestaltung interaktiver Anwendungen – geht weit über die visuelle Gestaltung hinaus. Die Herausforderung, digitale Touchpoints zu gestalten, verändert den Alltag und das Berufsbild des Designers grundlegend. Hier kommt das Buch, das Sie fundiert und praxisnah mit Fallbeispielen und Checklisten durch den BIxD-Prozesses führt. Marco Spies stellt Ihnen die Untersuchungsmethoden vor, die helfen, Business, Marke und Nutzer zu verstehen [DISCOVER]. Er macht Sie mit den strategischen Modellen zur Positionierung vertraut, auf deren Grundlage die Ideen sprudeln [DEFINE]. Im Zentrum des Buches steht natürlich der Designprozess [DESIGN]. Wie anschließend Styleguides und Templates Ihrem Design das „Überleben in freier Wildbahn“ sichern, erfahren Sie im Kapitel DELIVER. Wertvolle Praxistipps für die Phase der Implementierung und des Rollouts in verschiedenen Märkten warten unter der Überschrift DISTRIBUTE.
+
+(Quelle: Verlag Hermann Schmidt Mainz)
+
+Bild: http://www.typografie.de/image/product_images/info_images/1513_0.png
+****************************************************************
+
+Informationstext für RFID / Prototyping Interfaces Video bitte ergänzen. Vielen Dank.
