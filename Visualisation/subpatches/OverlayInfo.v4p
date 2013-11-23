@@ -313,7 +313,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="1755" top="16020" width="2400" height="1800">
    </BOUNDS>
-   <BOUNDS type="Window" left="9855" top="2730" width="7410" height="4530">
+   <BOUNDS type="Window" left="12090" top="6570" width="1890" height="1680">
    </BOUNDS>
    <PIN pinname="Layers" visible="1">
    </PIN>
@@ -486,20 +486,6 @@
    </NODE>
    <LINK srcnodeid="39" srcpinname="Output" dstnodeid="26" dstpinname="Background Color">
    </LINK>
-   <NODE systemname="HSV (Color Join)" nodename="HSV (Color Join)" componentmode="Hidden" id="40">
-   <BOUNDS type="Node" left="5640" top="10380" width="100" height="100">
-   </BOUNDS>
-   <PIN pinname="Output" visible="1">
-   </PIN>
-   <PIN pinname="Value" slicecount="1" values="1">
-   </PIN>
-   <PIN pinname="Alpha" slicecount="1" values="0.75" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="40" srcpinname="Output" dstnodeid="27" dstpinname="Color">
-   </LINK>
-   <LINK srcnodeid="40" srcpinname="Output" dstnodeid="32" dstpinname="Color">
-   </LINK>
    <NODE systemname="Quad (DX9)" nodename="Quad (DX9)" componentmode="Hidden" id="41">
    <BOUNDS type="Node" left="2820" top="14025" width="100" height="100">
    </BOUNDS>
@@ -521,7 +507,7 @@
    </PIN>
    <PIN pinname="Value" slicecount="1" values="0">
    </PIN>
-   <PIN pinname="Alpha" slicecount="1" values="0.34" visible="1">
+   <PIN pinname="Alpha" slicecount="1" visible="1" values="0.34">
    </PIN>
    </NODE>
    <LINK srcnodeid="42" srcpinname="Output" dstnodeid="41" dstpinname="Color">
@@ -722,8 +708,6 @@
    </LINK>
    <LINK srcnodeid="47" srcpinname="Y Output Value" dstnodeid="53" dstpinname="Width [px] (Multiline Mode)">
    </LINK>
-   <LINK srcnodeid="40" srcpinname="Output" dstnodeid="53" dstpinname="Color">
-   </LINK>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="56">
    <BOUNDS type="Node" left="1140" top="9360" width="100" height="100">
    </BOUNDS>
@@ -769,7 +753,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="5610" top="12750" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" values="0.34">
+   <PIN pinname="Y Input Value" slicecount="1" values="0.75">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -834,8 +818,6 @@
    </LINK>
    <LINK srcnodeid="57" srcpinname="Output" dstnodeid="62" dstpinname="Go To Position">
    </LINK>
-   <LINK srcnodeid="62" srcpinname="Position Out" dstnodeid="40" dstpinname="Alpha">
-   </LINK>
    <NODE id="64" systemname="Damper (Animation)" nodename="Damper (Animation)" componentmode="Hidden" hiddenwhenlocked="0" managers="">
    <BOUNDS type="Node" left="5685" top="13725" width="100" height="100">
    </BOUNDS>
@@ -863,5 +845,47 @@
    <LINK srcnodeid="63" srcpinname="Y Output Value" dstnodeid="60" dstpinname="Switch">
    </LINK>
    <LINK srcnodeid="64" srcpinname="Position Out" dstnodeid="42" dstpinname="Alpha">
+   </LINK>
+   <NODE systemname="SetAlpha (Color)" nodename="SetAlpha (Color)" componentmode="Hidden" id="65">
+   <BOUNDS type="Node" left="6030" top="10725" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Alpha" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="IOBox (Color)" nodename="IOBox (Color)" componentmode="InABox" id="66">
+   <BOUNDS type="Node" left="5940" top="11055" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="5940" top="11055" width="2250" height="480">
+   </BOUNDS>
+   <PIN pinname="Color Input" visible="1">
+   </PIN>
+   <PIN pinname="Color Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="65" srcpinname="Output" dstnodeid="66" dstpinname="Color Input">
+   </LINK>
+   <LINK srcnodeid="66" srcpinname="Color Output" dstnodeid="53" dstpinname="Color">
+   </LINK>
+   <LINK srcnodeid="66" srcpinname="Color Output" dstnodeid="27" dstpinname="Color">
+   </LINK>
+   <LINK srcnodeid="66" srcpinname="Color Output" dstnodeid="32" dstpinname="Color">
+   </LINK>
+   <NODE systemname="IOBox (Color)" nodename="IOBox (Color)" componentmode="InABox" id="67">
+   <BOUNDS type="Node" left="9015" top="7635" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="9015" top="7635" width="2250" height="480">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" slicecount="1" values="TextColor">
+   </PIN>
+   <PIN pinname="Color Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="67" srcpinname="Color Output" dstnodeid="65" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="62" srcpinname="Position Out" dstnodeid="65" dstpinname="Alpha">
    </LINK>
    </PATCH>

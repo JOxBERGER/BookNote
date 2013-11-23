@@ -439,7 +439,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="8280" top="7425" width="2400" height="1800">
    </BOUNDS>
-   <BOUNDS type="Window" left="12315" top="6540" width="6240" height="5010">
+   <BOUNDS type="Window" left="12090" top="4650" width="2025" height="1815">
    </BOUNDS>
    <PIN pinname="Layers" visible="1">
    </PIN>
@@ -455,7 +455,7 @@
    <LINK srcnodeid="59" srcpinname="Layer" dstnodeid="60" dstpinname="Layers">
    </LINK>
    <NODE systemname="HSV (Color Join)" nodename="HSV (Color Join)" componentmode="Hidden" id="61">
-   <BOUNDS type="Node" left="8280" top="5325" width="100" height="100">
+   <BOUNDS type="Node" left="7875" top="5415" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Output" visible="1">
    </PIN>
@@ -463,13 +463,11 @@
    </PIN>
    <PIN pinname="Saturation" slicecount="1" values="1">
    </PIN>
-   <PIN pinname="Hue" slicecount="1" values="0.42">
+   <PIN pinname="Hue" slicecount="1" values="0.54">
    </PIN>
    <PIN pinname="Value" slicecount="1" values="0.98">
    </PIN>
    </NODE>
-   <LINK srcnodeid="61" srcpinname="Output" dstnodeid="59" dstpinname="Tile_Color">
-   </LINK>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="63">
    <BOUNDS type="Node" left="9555" top="6180" width="100" height="100">
    </BOUNDS>
@@ -479,7 +477,7 @@
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" values="|Max Alpha|">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="1" values="0.45">
+   <PIN pinname="Y Input Value" slicecount="1" values="0.13">
    </PIN>
    </NODE>
    <NODE systemname="DX9Texture (EX9.Texture)" nodename="DX9Texture (EX9.Texture)" componentmode="Hidden" id="65">
@@ -531,6 +529,8 @@
    </PIN>
    <PIN pinname="Value" slicecount="1" values="1">
    </PIN>
+   <PIN pinname="Hue" slicecount="1" values="0">
+   </PIN>
    </NODE>
    <LINK srcnodeid="68" srcpinname="Output" dstnodeid="60" dstpinname="Background Color">
    </LINK>
@@ -571,7 +571,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="8895" top="5685" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" values="0.65">
+   <PIN pinname="Y Input Value" slicecount="1" values="0.47">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -594,6 +594,8 @@
    <BOUNDS type="Window" left="270" top="1485" width="11730" height="9675">
    </BOUNDS>
    <PIN pinname="show" visible="1">
+   </PIN>
+   <PIN pinname="TextColor" visible="1">
    </PIN>
    </NODE>
    <LINK srcnodeid="69" srcpinname="Layer" dstnodeid="70" dstpinname="Layer 3">
@@ -743,7 +745,7 @@
    <NODE systemname="I (Spreads)" nodename="I (Spreads)" componentmode="Hidden" id="85">
    <BOUNDS type="Node" left="2940" top="3330" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="[ From .." slicecount="1" values="5">
+   <PIN pinname="[ From .." slicecount="1" values="4">
    </PIN>
    <PIN pinname=".. To [" slicecount="1" values="7">
    </PIN>
@@ -821,5 +823,23 @@
    <LINK srcnodeid="2" srcpinname="Output Node" dstnodeid="84" dstpinname="Input Node">
    </LINK>
    <LINK srcnodeid="86" srcpinname="Inverse Output" dstnodeid="72" dstpinname="show">
+   </LINK>
+   <NODE systemname="IOBox (Color)" nodename="IOBox (Color)" componentmode="InABox" id="93">
+   <BOUNDS type="Node" left="7890" top="5880" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="7890" top="5880" width="975" height="360">
+   </BOUNDS>
+   <PIN pinname="Color Input" visible="1">
+   </PIN>
+   <PIN pinname="Show Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Color Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="61" srcpinname="Output" dstnodeid="93" dstpinname="Color Input">
+   </LINK>
+   <LINK srcnodeid="93" srcpinname="Color Output" dstnodeid="59" dstpinname="Tile_Color">
+   </LINK>
+   <LINK srcnodeid="93" srcpinname="Color Output" dstnodeid="72" dstpinname="TextColor">
    </LINK>
    </PATCH>
